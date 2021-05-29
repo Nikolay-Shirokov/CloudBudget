@@ -1,0 +1,169 @@
+.page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  min-height: 782px;
+  background-color: #C4C4C4;
+  background-image: url(../images/header-bg.png);
+  background-size: cover;
+  position: relative;
+  color: white;
+  /*   display: flex; */
+}
+
+.header__layer {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+  position: absolute;
+  padding-top: 65px;
+}
+
+.header__navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  /*   margin-top: 55px; */
+  padding: 0 165px 0 165px;
+}
+
+.logo {
+  color: white;
+  /*   font-family: Lato; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.logo::before {
+  content: '';
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: -30px;
+  top: -3px;
+  background-image: url(../images/dashicons-cloud.svg);
+  background-size: contain;
+}
+
+.navbar__links {
+  padding: 0;
+  margin: 0;
+  width: 445px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__link {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+
+.user-menu__lang {
+  /*  display: block; */
+  width: 60px;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding-left: 45px;
+  position: relative;
+}
+
+.user-menu__lang::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: -7px;
+  background-image: url(../images/emojione-flag-for-flag-united-states.svg);
+}
+
+.user-menu__lang::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  background-image: url(../images/ant-design_caret-down-outline.svg);
+  background-repeat: no-repeat;
+}
+
+.user-menu__lang:hover {
+  cursor: pointer;
+}
+
+.user-menu__login {
+  width: 100px;
+  height: 40px;
+  background: none;
+  border: 1px white solid;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header__title {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: uppercase;
+  margin: 140px auto 39px;
+  text-align: center;
+}
+
+.header__subtitle {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0;
+}
+
+.header__sign-up {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ED4C5C;
+  text-transform: uppercase;
+  margin: 39px auto;
+}
