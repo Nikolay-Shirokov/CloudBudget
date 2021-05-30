@@ -354,7 +354,6 @@
   top: 59px;
 }
 
-
 .technology__card-title {
   font-style: normal;
   font-weight: bold;
@@ -371,4 +370,87 @@
   line-height: 14px;
   margin: 10px 0 0 0;
   text-align: center;
+}
+
+/* Download */
+
+.download {
+  padding: 94px 165px 0 165px;
+  background-color: #ED4C5C;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.download__discription {
+  width: 445px;
+}
+
+.download__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 18px 0 0 0;
+}
+
+.download__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  margin: 50px 0 0 0;
+}
+
+.download__links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+.download__link {
+  margin: 0 23px 0 0;
+}
+
+.download__link-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.slider {
+  width: 533px;
+  height: 311px;
+  position: relative;
+}
+
+.slider__prev {
+  width: 383px;
+  height: 267px;
+  object-fit: contain;
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+.slider__current {
+  width: 445px;
+  height: 311px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 44px;
+  z-index: 2;
+}
+
+.slider__next {
+  width: 383px;
+  height: 267px;
+  object-fit: contain;
+  position: absolute;
+  top: 22px;
+  right: 0;
 }
