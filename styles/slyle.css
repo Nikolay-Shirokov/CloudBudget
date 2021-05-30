@@ -317,7 +317,7 @@
 /* Technology */
 
 .technology {
-  padding: 63px 165px 0 165px;
+  padding: 63px 165px 104px 165px;
 }
 
 .technology__cards {
@@ -375,7 +375,7 @@
 /* Download */
 
 .download {
-  padding: 94px 165px 0 165px;
+  padding: 94px 165px 95px 165px;
   background-color: #ED4C5C;
   color: white;
   display: flex;
@@ -453,4 +453,101 @@
   position: absolute;
   top: 22px;
   right: 0;
+}
+
+/* Contact */
+
+.contact {
+  padding: 117px 165px 78px 176px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact__discription {
+  width: 445px;
+}
+
+.contact__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.contact__text {
+  width: 434px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+}
+
+.contact__form {
+  width: 540px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact__first-name {
+  box-sizing: border-box;
+  width: 255px;
+  height: 60px;
+}
+
+.contact__last-name {
+  box-sizing: border-box;
+  width: 255px;
+  height: 60px;
+}
+
+.contact__phone-number {
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.contact__select-service {
+  box-sizing: border-box;
+  height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.contact__submit {
+  box-sizing: border-box;
+  width: 160px;
+  height: 60px;
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  position: absolute;
+  top: 21px;
+  left: 31px;
 }
